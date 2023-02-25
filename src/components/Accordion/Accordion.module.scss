@@ -1,0 +1,11 @@
+@import '../../styles/variables/colors.scss';
+
+.cardBody {
+    display: flex;
+    flex-direction: column;
+}
+
+.selected { 
+    border: 1px solid $borderColor !important;
+}
+  

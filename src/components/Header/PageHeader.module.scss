@@ -1,0 +1,11 @@
+@import '../../styles/variables/colors.scss';
+
+.headerContainer {
+    background-color: $background;
+    min-height: 80px;
+}
+
+.content {
+    background-color: $background;
+    min-height: 80px;
+}

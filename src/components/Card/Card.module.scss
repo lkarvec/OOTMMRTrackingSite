@@ -1,0 +1,40 @@
+@import "../../styles/variables/colors.scss";
+
+.card {
+  box-shadow: -3px 4px 6px #00000020;
+  border: 1px solid $borderColor;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.card:hover {
+    border: 2px solid $selectedBorder !important;
+}
+
+.cardHeader {
+  background-color: inherit;
+}
+
+.cardBody {
+    width: 100%;
+    padding: 15px;
+}
+
+.selected {
+  border: 2px solid $selectedBorder !important;
+}
+
+.large {
+  width: 500px;
+  height: 700px;
+}
+
+.medium {
+  width: 500px;
+  height: 500px;
+}
+
+.small {
+  width: 500px;
+  height: 300px;
+}

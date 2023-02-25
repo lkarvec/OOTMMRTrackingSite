@@ -1,0 +1,37 @@
+@import '../../styles/variables/colors.scss';
+@import '../../styles/fonts.scss';
+
+.toggleContainer {
+  label {
+    color: $text;
+    font: $primary-font;
+    
+  }
+
+  input {
+    width: 16px;
+    height: 16px;
+    background: $PrimaryBackground 0% 0% no-repeat padding-box;
+    box-shadow: -1px 2px 6px #00000020;
+    border: 1px solid $borderColor;
+    border-radius: 2px;
+  }
+}
+
+.small {
+  width: auto;
+
+  label {
+    font: $primary-font;
+  }
+  input {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+.disabled {
+  input {
+    opacity: .25;
+  }
+}

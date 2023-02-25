@@ -1,0 +1,15 @@
+@import "../../styles/variables/colors.scss";
+
+.textArea {
+    textarea {
+        box-shadow: -4px 5px 6px #00000015;
+        border: 1px solid $borderColor;
+        background: #092442;
+        color: $LightColor;
+        border-radius: 5px;
+    }
+}
+
+.control {
+
+}

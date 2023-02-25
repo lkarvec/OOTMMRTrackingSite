@@ -1,0 +1,50 @@
+@import "../../styles/variables/colors.scss";
+@import "../../styles/fonts.scss";
+
+.inputContainer {
+  input {
+    border: 1px solid #262626;
+    border-radius: 7px;
+  }
+
+  label {
+    font: $primary-font;
+    letter-spacing: 0;
+    color: #585858;
+
+  }
+
+  .error {
+    font: $primary-font;
+    color: $DangerColor;
+  }
+}
+
+.disabled {
+  opacity: .40;
+}
+
+.large {
+  height: 75px;
+  font: normal normal normal 20px/22px Arial;
+}
+
+.medium {
+  height: 50px;
+  font: $primary-font;
+}
+
+.small {
+  height: 30px;
+  font: $primary-font;
+}
+
+.required {
+  color: $DangerColor !important;
+}
+
+.error {
+  font: $primary-font;
+  border: 1px solid $DangerColor !important;
+  border-radius: 7px;
+}

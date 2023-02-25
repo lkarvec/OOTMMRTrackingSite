@@ -1,0 +1,55 @@
+@import '../../styles/variables/colors.scss';
+@import '../../styles/fonts.scss';
+
+.modal {
+    
+    .body {
+        margin-top: -10px;
+        margin-bottom: -10px;
+        font: $primary-font;
+        letter-spacing: 0px;
+    }
+
+    .header {
+        text-align: center;
+        font: $headerFont;
+        letter-spacing: 0px;
+        border: none;
+
+        .btn-close {
+            height: 5em !important;
+            width: 5em !important;
+        }
+    }
+    .title{
+        margin-top: 10px;
+        margin-left: 20px;
+
+    }
+    .close{
+        margin-top: -20px;
+        .iconBtn{
+            padding-left: 0em !important;
+            padding-right: 0em !important;
+            //color: #000000;
+            background-color: $PrimaryBackground;
+            border: 0px solid $background;
+        }
+    }
+
+    .footer {
+        border: none;
+        justify-content: center;
+        margin-bottom: 20px;
+        button {
+            min-width: 200px;
+        }
+    }
+}
+
+.modal-header {
+    button.btn-close {
+        height: 15em !important;
+        width: 5em !important;
+    }
+}

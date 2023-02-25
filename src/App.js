@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 
+/* TODOs:
+Add Header, MainContent, Footer
+Make a loading component
+*/
 function App() {
   return (
     <div className="App">

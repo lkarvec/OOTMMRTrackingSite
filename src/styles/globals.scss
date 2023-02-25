@@ -13,14 +13,10 @@ body {
     }
 }
 
-h1 {
-    font: normal normal bold 36px/49px Arial;
-}
-
 h5 {
     font: normal normal bold 20px/24px Arial;
     letter-spacing: 0px;
-    color: #000000;
+    color: #858585;
 }
 
 a {
@@ -29,117 +25,26 @@ a {
 }
 
 a:hover {
-    color: $btnPrimaryBackground;
+    color: $PrimaryBackground;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-
-.btn {
-    border-radius: 23px;
+.button {
+    border-radius: 15px;
     font-weight: $bold;
 }
-.btn-primary, .btn-outline-primary {
+
+.button-primary, .button-outline-primary {
     font-size: 16px !important;
 }
 
-.btn-primary, .btn-primary:hover {
-    background: $btnPrimaryBackground;
-    color: $btnPrimaryColor;
+.button-primary, .button-primary:hover {
+    background: $PrimaryBackground;
+    color: $PrimaryColor;
 }
 
-.btn-outline-primary, .btn-outline-primary:hover  {
-    background: $btnSecondaryBackground;
-    color: $btnSecondaryColor;
-    border-color: $btnSecondaryOutlineColor !important;
+.button-outline-primary, .button-outline-primary:hover  {
+    background: $SecondaryBackground;
+    color: $SecondaryColor;
+    border-color: $SecondaryOutlineColor !important;
     border: 2px solid;
-}
-
-.btn-close {
-    width: auto;
-    height: auto;
-    margin-right: 42px;
-    margin-top: 1em;
-}
-
-.btn-close:focus {
-    outline: 0;
-    box-shadow: none;
-}
-
-.carousel-indicators {
-    li {
-        width: 40px;
-        height: 4px;
-        background-color: #D0D0D0;
-        border-radius: 4px;
-    }
-
-    .active {
-        background-color: #000000;
-    }
-}
-
-.carousel-control-prev, .carousel-control-next {
-    width: auto;
-}
-
-.navbar-brand {
-    cursor: pointer;
-}
-
-.form-group {
-    margin-right: 0;
-    margin-left: 0;
-}
-
-div.row.react-bootstrap-table-pagination {
-    justify-content: center;
-    align-content: center;
-
-    div:first-child {
-        display: none;
-    }
-
-    div:last-child {
-        max-width: none;
-    }
-}
-
-.react-toggle {
-    border: 2px solid $btnPrimaryBackground;
-    border-radius: 30px;
-}
-
-.react-toggle--checked .react-toggle-track {
-    background-color: $btnPrimaryBackground;
-}
-
-.react-toggle-thumb {
-    background-color: $btnPrimaryBackground;
-}
-
-.react-toggle-track {
-    background-color: #FFFFFF;
-    border-color: $btnPrimaryBackground;
-}
-
-.react-toggle--checked .react-toggle-thumb {
-    border-color: #FFFFFF;
-    background-color: #FFFFFF;
-}
-
-.react-toggle:hover:not(.react-toggle--disabled) .react-toggle-track {
-    background-color: #FFFFFF;
-}
-
-.react-toggle--checked:hover:not(.react-toggle--disabled) .react-toggle-track {
-    background-color: $btnPrimaryBackground;
-}
-
-input {
-    box-shadow: none !important;
-    webkit-box-shadow: none !important;
 }

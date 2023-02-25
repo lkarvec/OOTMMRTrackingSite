@@ -1,0 +1,153 @@
+@import "../../styles/variables/colors.scss";
+
+.button {
+  border-radius: 23px;
+  letter-spacing: 0;
+  box-shadow: none !important;
+}
+
+.large {
+  height: 50px;
+  width: 250px;
+  font: normal normal normal 18px/22px Arial;
+}
+
+.medium {
+  height: 40px;
+  width: 150px;
+  font: $primary-font;
+}
+
+.small {
+  height: 40px;
+  width: 100px;
+  font: $primary-font;
+}
+
+.auto {
+  width: auto;
+  font: $primary-font;
+}
+
+.primary,
+.primary:focus,
+.secondary:hover {
+  background: $PrimaryBackground 0 0 no-repeat padding-box;
+  border-color: $PrimaryBackground;
+  border-width: 1px;
+  color: $PrimaryColor;
+}
+
+.secondary,
+.secondary:focus,
+.primary:hover {
+  background: $SecondaryBackground 0 0 no-repeat padding-box;
+  border-color: $SecondaryOutlineColor;
+  border-width: 1px;
+  color: $SecondaryColor;
+}
+
+.danger,
+.danger:focus {
+  background: $DangerColor 0 0 no-repeat padding-box;
+  border-color: $DangerColor;
+  border-width: 1px;
+  color: white;
+}
+
+.danger:hover {
+  background: white 0 0 no-repeat padding-box;
+  border-color: $DangerColor;
+  border-width: 1px;
+  color: $DangerColor;
+}
+
+.warning,
+.warning:focus {
+  background: $WarningColor 0 0 no-repeat padding-box;
+  border-color: $WarningColor;
+  border-width: 1px;
+  color: white;
+}
+
+.warning:hover {
+  background: white 0 0 no-repeat padding-box;
+  border-color: $WarningColor;
+  border-width: 1px;
+  color: $WarningColor;
+}
+
+.success,
+.success:focus {
+  background: $SuccessColor 0 0 no-repeat padding-box;
+  border-color: $SuccessColor;
+  border-width: 1px;
+  color: white;
+}
+
+.success:hover {
+  background: white 0 0 no-repeat padding-box;
+  border-color: $SuccessColor;
+  border-width: 1px;
+  color: $SuccessColor;
+}
+
+.info,
+.info:focus {
+  background: $InfoColor 0 0 no-repeat padding-box;
+  border-color: $InfoColor;
+  border-width: 1px;
+  color: white;
+}
+
+.info:hover {
+  background: white 0 0 no-repeat padding-box;
+  border-color: $InfoColor;
+  border-width: 1px;
+  color: $InfoColor;
+}
+
+.light,
+.light:focus {
+  background: $LightColor 0 0 no-repeat padding-box;
+  border-color: $LightColor;
+  border-width: 1px;
+  color: black;
+}
+
+.light:hover {
+  background: white 0 0 no-repeat padding-box;
+  border-color: $LightColor;
+  border-width: 1px;
+  color: black;
+}
+
+.dark,
+.dark:focus {
+  background: $DarkColor 0 0 no-repeat padding-box;
+  border-color: $DarkColor;
+  border-width: 1px;
+  color: white;
+}
+
+.dark:hover {
+  background: white 0 0 no-repeat padding-box;
+  border-color: $DarkColor;
+  border-width: 1px;
+  color: $DarkColor;
+}
+
+.link,
+.link:focus {
+  background: $LinkColor 0 0 no-repeat padding-box;
+  border-color: $LinkColor;
+  border-width: 1px;
+  color: $LinkColor;
+}
+
+.link:hover {
+  background: white 0 0 no-repeat padding-box;
+  border-color: $LinkColor;
+  border-width: 1px;
+  color: $LinkColor;
+}

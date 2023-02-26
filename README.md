@@ -37,3 +37,5 @@ This section will basically be a simple dropdown to search for an item in your s
 The Options and Modular Design come first in the beta, then I will add the basic tracking and notes sections.  Check Tracking will come next, and should include the base for Suggestion integration.  Glitchless suggestions will then be added, with Glitches being added much later.  I'm not sure of where I want to add the Spoiler Log Parsing in at, but I believe it may be somewhere between suggestions and glitches to break up that monotony.
 
 Aside this?  I'm not sure Potsanity is on the menu, but I am definitely interested in having Shop and Scrub sanity on, as well as some explanation for all of the warps like wrong warps you can potentially do.  I also will need to add a dungeon entrance and Boss check tracker as well.
+
+At some point, this is getting wrapped as a standalone electron app.

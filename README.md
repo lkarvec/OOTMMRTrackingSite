@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Tracker of Truth (SITE UNDER CONSTRUCTION)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Tracker of Truth](https://lkarvec.github.io/OOTMMRTrackingSite/) is a modular tracking website built for newcomers and veterans of the Ocarina of Time and Majora's Mask randomizer communities.  It is planned to be used for both Ocarina of Time, Majora's Mask, and Combo randomizers.
 
-## Available Scripts
+## Context
 
-In the project directory, you can run:
+With the recent launch of [OOTMMR](https://ootmm.com/), I started getting into playing the N64 randomizers and felt as though the community-built trackers were very lackluster in design, functionality, and clarity.   In order to combat this, I'm building as close to a FULL tracker and guide as I can; not only for new players like myself, but for players that have long loved the format.  I plan on having functionality for both the Ocarina of Time and Majora's Mask randomizer's, as well as the combo randomizer from Nax.
 
-### `npm start`
+## Features at launch
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Custom Options
+When the user opens up the site for the first time (dependent on their LocalStorage for the site), they can select what kind of a set up they wish to have on their navigation bar.  This is where selections of what games are being played happen, what the details of their run are, if they want a suggestions tab, if they want to put in their spoiler log for help, and many more.  There will also be a reset button so they can go back to this screen.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Modular Design
+The site is designed with user customization in mind.  There is a snap grid the user can use by clicking the tabs on their Navigation Bar to toggle the view of a feature, like Item Tracking, for example.  They can then drag that Feature to where they want it to snap to.  There will also be a couple presets for players who don't really want to set this up every time they open the site.  I'm planning for 2-3 normal presets, and one custom preset.
 
-### `npm test`
+### Basic Tracking
+Currently, I have plans for normal item, key, mask, trading, songs, and other basic entities to be tracked.  Additionally, there will be settings to include heart pieces, junk, stray faeries, and more in the future.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Notes
+There will be a text area module for the user to type things in.  This will be saved in local storage for the site.
 
-### `npm run build`
+### Check Tracking
+There is a LOT to collect in these games, and there aren't really any easy ways to track it all.  This section is sorted by location names and will include all checks that can possibly drop an item with a picture of what that check looks like if you hover over it.  Potsanity will definitely have to wait for this one.  This will have integration with the Suggestions tab.  Grottos will be sorted with their original location.  Example : 'Hyrule Field Castle Grotto'
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Suggestions
+Randomizers are easy to forget things in.  This tab will help you clear things up by looking for chests, skulltulas, faeries, and more; and generate a list of a couple things you still have to do with a picture of the action.  This can include certain glitches or skips, which may normally set you outside of logic of your seed, but you can also turn off the Glitch/Skip flag with a checkbox at the top.  Any Glitch or Skip suggested will link to a modal pop-up that shows a tutorial of what you need to do.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Glitch/Skip Tutorials
+Ocarina of Time and Majora's Mask have a wide variety of glitches and skips that are not necessarily well documented out there.  A tab will be included as a searchable encyclopedia of glitches and skips, full of tutorials and videos on how to do them all.  This will be periodically updated and credit will always be given to those who contribute to this.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Spoiler Log Parse
+This section will basically be a simple dropdown to search for an item in your spoiler log, and then tell you where it is, along with an image if you hover over it.
 
-### `npm run eject`
+## Roadmap
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The Options and Modular Design come first in the beta, then I will add the basic tracking and notes sections.  Check Tracking will come next, and should include the base for Suggestion integration.  Glitchless suggestions will then be added, with Glitches being added much later.  I'm not sure of where I want to add the Spoiler Log Parsing in at, but I believe it may be somewhere between suggestions and glitches to break up that monotony.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Aside this?  I'm not sure Potsanity is on the menu, but I am definitely interested in having Shop and Scrub sanity on, as well as some explanation for all of the warps like wrong warps you can potentially do.  I also will need to add a dungeon entrance and Boss check tracker as well.
